@@ -1,0 +1,14 @@
+{
+  "name": "tram-bot",
+  "version": "1.0.0",
+  "description": "A bot to check tram schedules",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

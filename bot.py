@@ -6,7 +6,7 @@ TOKEN = os.getenv("DISCORD_TOKEN")  # Token načteme z Railway
 URL = "https://tram.mobilnitabla.cz/api/positions"
 
 intents = discord.Intents.default()
-bot = discord.Bot(intents=intents)
+bot = commands.Bot(intents=intents)
 
 @bot.event
 async def on_ready():
